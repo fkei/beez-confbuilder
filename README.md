@@ -1,2 +1,2 @@
-beez-configurator
+beez-confbuilder
 =================
