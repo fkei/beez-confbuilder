@@ -123,4 +123,6 @@ $ beez-confbuilder -h
 
 ## LICENSE
 
+The MIT License (MIT)
+
 @see : [LICENSE](https://raw.github.com/fkei/beez-confbuilder/master/LICENSE)
