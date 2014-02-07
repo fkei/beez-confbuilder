@@ -120,3 +120,7 @@ $ beez-confbuilder -h
     --encoding <encoding>     Write file encoding. default) "utf8"
     --no_mkdirp               If destination directory is not exist, stop to create new one. # 出力先のディレクトリがない場合は処理を停止
 ```
+
+## LICENSE
+
+@see : [LICENSE](https://raw.github.com/fkei/beez-confbuilder/master/LICENSE)
