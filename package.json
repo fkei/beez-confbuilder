@@ -1,8 +1,11 @@
 {
   "name": "beez-confbuilder",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Build configuration files for beez project template.",
   "main": "lib/index.js",
+  "bin": {
+    "beez-confbuilder": "bin/beez-confbuilder.js"
+  },
   "scripts": {
     "test": "mocha tests"
   },
