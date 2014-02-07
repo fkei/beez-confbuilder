@@ -13,3 +13,8 @@ results
 
 npm-debug.log
 node_modules
+
+
+tests/projectA/build.local.js
+tests/projectA/conf/local.js
+tests/projectA/conf/local/
