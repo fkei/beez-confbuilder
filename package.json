@@ -1,52 +1,52 @@
 {
-  "name": "beez-confbuilder",
-  "version": "0.1.2",
-  "description": "Build configuration files for beez project template.",
-  "main": "lib/index.js",
-  "bin": {
-    "beez-confbuilder": "bin/beez-confbuilder.js"
-  },
-  "scripts": {
-    "test": "mocha tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fkei/beez-confbuilder"
-  },
-  "keywords": [
-    "node",
-    "beez",
-    "configuration",
-    "build"
-  ],
-  "author": {
-    "name": "fkei",
-    "email": "kei.topaz@gmail.com"
-  },
-  "contributors": [],
-  "homepage": "https://github.com/fkei/beez-confbuilder",
-  "license": {
-      "type": "MIT",
-      "url": "https://raw.github.com/fkei/beez-confbuilder/master/LICENSE"
-  },
-  "bugs": {
-   "email": "kei.topaz@gmail.com",
-   "url": "https://github.com/fkei/beez-confbuilder/issues"
-  },
-  "dependencies": {
-    "colors": "*",
-    "commander": "*",
-    "underscore": "*",
-    "beezlib": "*"
-  },
-  "devDependencies": {
-    "jsdoc": "~3.2.2",
-    "jshint": "~2.3.0",
-    "mocha": "~1.14.0",
-    "chai": "~1.9.0"
-  },
-  "engines": {
-    "node": "~0.10.1",
-    "npm": "~1.1.0"
-  }
+    "name": "beez-confbuilder",
+    "version": "0.2.1",
+    "description": "Build configuration files for beez project template.",
+    "main": "lib/index.js",
+    "bin": {
+        "beez-confbuilder": "bin/beez-confbuilder.js"
+    },
+    "scripts": {
+        "test": "mocha tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fkei/beez-confbuilder"
+    },
+    "keywords": [
+        "node",
+        "beez",
+        "configuration",
+        "build"
+    ],
+    "author": {
+        "name": "fkei",
+        "email": "kei.topaz@gmail.com"
+    },
+    "contributors": [],
+    "homepage": "https://github.com/fkei/beez-confbuilder",
+    "license": {
+        "type": "MIT",
+        "url": "https://raw.github.com/fkei/beez-confbuilder/master/LICENSE"
+    },
+    "bugs": {
+        "email": "kei.topaz@gmail.com",
+        "url": "https://github.com/fkei/beez-confbuilder/issues"
+    },
+    "dependencies": {
+        "colors": "*",
+        "commander": "*",
+        "underscore": "*",
+        "beezlib": "*"
+    },
+    "devDependencies": {
+        "jsdoc": "~3.2.2",
+        "jshint": "~2.3.0",
+        "mocha": "~1.14.0",
+        "chai": "~1.9.0"
+    },
+    "engines": {
+        "node": "~0.10.1",
+        "npm": "~1.1.0"
+    }
 }
