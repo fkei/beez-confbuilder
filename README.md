@@ -1,6 +1,10 @@
 beez-confbuilder
 =================
 
+
+![Travis CI](https://travis-ci.org/fkei/beez-confbuilder.png?branch=master)
+
+
 # About
 
 You can create "beez" project configuration files depend on each environment.
