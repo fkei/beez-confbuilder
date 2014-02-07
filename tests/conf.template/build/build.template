@@ -1,0 +1,11 @@
+(function () {
+    var config = <%= data %>;
+
+    ////////////////////
+    // 生成した設定ファイルを更に可変にすることが可能です。
+    // node.js で実装が可能です。
+    console.log("== The output of the configuration BUILD file load time");
+    console.log("\t:process.cwd=" + process.cwd());
+
+    return config;
+}())
