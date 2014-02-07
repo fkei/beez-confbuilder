@@ -31,7 +31,7 @@ $ npm install -g beez-confbuilder
 # Test
 
 ```sh
-$ mocha tests
+$ npm test
 ```
 
 # Template
