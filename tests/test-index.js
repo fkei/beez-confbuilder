@@ -58,7 +58,6 @@ describe('index.js', function () {
 
 
     it('deployrjs', function () {
-        debugger;
         var env = 'local';
         var json = beezconfbuilder.buildrjs(srcdir, env, {
             indent: '  '
@@ -74,7 +73,6 @@ describe('index.js', function () {
 
 
     it('deployenv', function () {
-        debugger;
         var env = 'local';
         var json = beezconfbuilder.buildenv(srcdir, env, {
             indent: '  '
@@ -90,7 +88,6 @@ describe('index.js', function () {
 
 
     it('deploykey', function () {
-        debugger;
         var env = 'local';
         var json = beezconfbuilder.buildkey(srcdir, env, {
             indent: '  '
