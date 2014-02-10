@@ -16,5 +16,5 @@ node_modules
 
 
 tests/projectA/build.local.js
-tests/projectA/conf/local.js
-tests/projectA/conf/local/
+tests/projectA/conf
+tests/projectA/.conf
