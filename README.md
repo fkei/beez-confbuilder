@@ -131,12 +131,13 @@ $ beez-confbuilder -h
 
   Options:
 
-    -h, --help                output usage information
-    -s --srcdir <srcdir>      Source directory root path.
-    -p --pjdir <pjdir>        Beez project directory path.
-    -e --env <env>            Environment name. default) "local"
-    -i --indent <indent>      Output json file indent. default) space 4
-    -l --loglevel <loglevel>  Log level. default) INFO
+    -h, --help                    output usage information
+    -s --srcdir <srcdir>          Source directory root path.
+    -p --pjdir <pjdir>            Beez project directory path.
+    -d --pjconfname <pjconfname>  Beez project configure directory name. default) conf
+    -e --env <env>                Environment name. default) "local"
+    -i --indent <indent>          Output json file indent. default) space 4
+    -l --loglevel <loglevel>      Log level. default) INFO
        DEBUG: 1
        INFO:  2
        WARN:  3
@@ -154,4 +155,3 @@ The MIT License (MIT)
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fkei/beez-confbuilder/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-

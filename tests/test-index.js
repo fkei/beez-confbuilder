@@ -6,8 +6,10 @@
  */
 
 var beezconfbuilder = require('../lib');
+
 var chai = require('chai');
 var expect = chai.expect;
+var beezlib = require('beezlib');
 
 var pjdir = __dirname + '/projectA';
 var srcdir = __dirname + '/conf.template';
@@ -56,6 +58,7 @@ describe('index.js', function () {
 
 
     it('deployrjs', function () {
+        debugger;
         var env = 'local';
         var json = beezconfbuilder.buildrjs(srcdir, env, {
             indent: '  '
@@ -71,6 +74,7 @@ describe('index.js', function () {
 
 
     it('deployenv', function () {
+        debugger;
         var env = 'local';
         var json = beezconfbuilder.buildenv(srcdir, env, {
             indent: '  '
@@ -86,6 +90,7 @@ describe('index.js', function () {
 
 
     it('deploykey', function () {
+        debugger;
         var env = 'local';
         var json = beezconfbuilder.buildkey(srcdir, env, {
             indent: '  '
@@ -108,8 +113,12 @@ describe('index.js', function () {
 
         var dstdirs = {};
         dstdirs.build = pjdir;
-        dstdirs.env = pjdir + '/conf';
-        dstdirs.key = pjdir + '/conf';
+        dstdirs.env = pjdir + '/.conf';
+        dstdirs.key = pjdir + '/.conf';
+
+        beezlib.fsys.mkdirpSync(dstdirs.build);
+        beezlib.fsys.mkdirpSync(dstdirs.env);
+        beezlib.fsys.mkdirpSync(dstdirs.key);
 
         var list = beezconfbuilder.deploy(json, dstdirs, {
             encoding: 'utf8'
