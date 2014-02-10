@@ -130,3 +130,7 @@ $ beez-confbuilder -h
 The MIT License (MIT)
 
 @see : [LICENSE](https://raw.github.com/fkei/beez-confbuilder/master/LICENSE)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fkei/beez-confbuilder/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
