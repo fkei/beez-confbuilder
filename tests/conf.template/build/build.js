@@ -47,18 +47,18 @@
             "handlebars": vendordir + "/handlebars.runtime",
             "beez"      : vendordir + "/beez"
         },
-        modules: [
-            {
+        modules: {
+            core: {
                 name: "core/index",
                 include: [],
                 exclude: vendor
             },
-            {
+            index: {
                 name: "index/index",
                 include: [],
                 exclude: vendor
             }
-        ]
+        }
     };
 
     //////////////////////////////

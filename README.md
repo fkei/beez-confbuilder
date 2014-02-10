@@ -54,7 +54,7 @@ tests/conf.template
 │   └── env.template
 └── key
     ├── key.js
-        └── key.template
+    └── key.template
 
 3 directories, 6 files
 ```
@@ -80,7 +80,10 @@ tests/conf.template
     return { template: template, environment: environment };
 }())
 
-```
+
+### build.js
+modules プロパティはオブジェクト型で記述します。通常の記入方法と違う点に注意してください。
+"beez-confbuilder"により生成されるファイルでは、自動で配列に変換されます。
 
 ## *.template
 
