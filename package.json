@@ -1,6 +1,6 @@
 {
     "name": "beez-confbuilder",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "description": "Build configuration files for beez project template.",
     "main": "lib/index.js",
     "bin": {
